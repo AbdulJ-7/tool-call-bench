@@ -1,0 +1,52 @@
+[
+  {
+    "error": "Both structured output format and JSON mode failed. Please choose a model that supports `response_format` argument. Original error: litellm.InternalServerError: InternalServerError: OpenAIException - Object of type LM is not JSON serializable",
+    "metadata": {
+      "llm_name": "claude_sonnet_37",
+      "task_id": "T001",
+      "evaluator_model": "gpt-4o",
+      "evaluation_success": false
+    },
+    "row_number": 3
+  },
+  {
+    "error": "Both structured output format and JSON mode failed. Please choose a model that supports `response_format` argument. Original error: litellm.InternalServerError: InternalServerError: OpenAIException - Object of type LM is not JSON serializable",
+    "metadata": {
+      "llm_name": "gemini_25_flash",
+      "task_id": "T001",
+      "evaluator_model": "gpt-4o",
+      "evaluation_success": false
+    },
+    "row_number": 3
+  },
+  {
+    "error": "Both structured output format and JSON mode failed. Please choose a model that supports `response_format` argument. Original error: litellm.InternalServerError: InternalServerError: OpenAIException - Object of type LM is not JSON serializable",
+    "metadata": {
+      "llm_name": "gpt_4o",
+      "task_id": "T001",
+      "evaluator_model": "gpt-4o",
+      "evaluation_success": false
+    },
+    "row_number": 3
+  },
+  {
+    "error": "Both structured output format and JSON mode failed. Please choose a model that supports `response_format` argument. Original error: litellm.InternalServerError: InternalServerError: OpenAIException - Object of type LM is not JSON serializable",
+    "metadata": {
+      "llm_name": "llama_4_maverick_17b",
+      "task_id": "T001",
+      "evaluator_model": "gpt-4o",
+      "evaluation_success": false
+    },
+    "row_number": 3
+  },
+  {
+    "error": "Both structured output format and JSON mode failed. Please choose a model that supports `response_format` argument. Original error: litellm.InternalServerError: InternalServerError: OpenAIException - Object of type LM is not JSON serializable",
+    "metadata": {
+      "llm_name": "qwen_25_72b",
+      "task_id": "T001",
+      "evaluator_model": "gpt-4o",
+      "evaluation_success": false
+    },
+    "row_number": 3
+  }
+]

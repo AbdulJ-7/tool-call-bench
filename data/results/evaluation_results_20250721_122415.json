@@ -1,0 +1,82 @@
+[
+  {
+    "evaluation": {
+      "tool_selection_score": 7,
+      "tool_sequencing_score": 6,
+      "function_execution_score": 10,
+      "efficiency_score": 6,
+      "final_score": 7.05
+    },
+    "metadata": {
+      "llm_name": "claude_sonnet_37",
+      "task_id": "T001",
+      "evaluator_model": "gpt-4o-mini",
+      "evaluation_success": true
+    },
+    "row_number": 3
+  },
+  {
+    "evaluation": {
+      "tool_selection_score": 7,
+      "tool_sequencing_score": 6,
+      "function_execution_score": 10,
+      "efficiency_score": 6,
+      "final_score": 7.05
+    },
+    "metadata": {
+      "llm_name": "gemini_25_flash",
+      "task_id": "T001",
+      "evaluator_model": "gpt-4o-mini",
+      "evaluation_success": true
+    },
+    "row_number": 3
+  },
+  {
+    "evaluation": {
+      "tool_selection_score": 7,
+      "tool_sequencing_score": 6,
+      "function_execution_score": 5,
+      "efficiency_score": 6,
+      "final_score": 6.25
+    },
+    "metadata": {
+      "llm_name": "gpt_4o",
+      "task_id": "T001",
+      "evaluator_model": "gpt-4o-mini",
+      "evaluation_success": true
+    },
+    "row_number": 3
+  },
+  {
+    "evaluation": {
+      "tool_selection_score": 7,
+      "tool_sequencing_score": 6,
+      "function_execution_score": 5,
+      "efficiency_score": 6,
+      "final_score": 6.45
+    },
+    "metadata": {
+      "llm_name": "llama_4_maverick_17b",
+      "task_id": "T001",
+      "evaluator_model": "gpt-4o-mini",
+      "evaluation_success": true
+    },
+    "row_number": 3
+  },
+  {
+    "evaluation": {
+      "tool_selection_score": 7,
+      "tool_sequencing_score": 6,
+      "function_execution_score": 5,
+      "efficiency_score": 6,
+      "final_score": 6.5
+    },
+    "metadata": {
+      "llm_name": "qwen_25_72b",
+      "task_id": "T001",
+      "evaluator_model": "gpt-4o-mini",
+      "evaluation_success": true
+    },
+    "row_number": 3
+  }
+]
