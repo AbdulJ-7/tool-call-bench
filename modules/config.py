@@ -7,6 +7,7 @@ class Config:
     OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
     GOOGLE_SHEETS_CREDENTIALS = os.getenv('GOOGLE_SHEETS_CREDENTIALS', 'credentials/service_account.json')
     SPREADSHEET_ID = os.getenv('SPREADSHEET_ID')
+    GOOGLE_SERVICE_ACCOUNT_JSON = os.getenv('GOOGLE_SERVICE_ACCOUNT_JSON')
     
     # =====================================================
     # HARDCODED INPUT PARAMETERS - CHANGE THESE AS NEEDED

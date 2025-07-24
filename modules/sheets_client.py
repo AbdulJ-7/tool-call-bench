@@ -6,27 +6,23 @@ from typing import List, Dict, Any
 from .config import Config
 
 class SheetsClient:
-    def __init__(self, credentials_path: str = None):
-        self.credentials_path = credentials_path or Config.GOOGLE_SHEETS_CREDENTIALS
+    def __init__(self):
         self.client = None
         self.authenticate()
     
     def authenticate(self):
-        """Authenticate with Google Sheets using service account"""
+        """Authenticate with Google Sheets using service account from env variable"""
         try:
             scope = [
                 'https://www.googleapis.com/auth/spreadsheets',
                 'https://www.googleapis.com/auth/drive'
             ]
-            
-            credentials = Credentials.from_service_account_file(
-                self.credentials_path, 
+            credentials = Credentials.from_service_account_info(
+                json.loads(Config.GOOGLE_SERVICE_ACCOUNT_JSON),
                 scopes=scope
             )
-            
             self.client = gspread.authorize(credentials)
             print("✅ Successfully authenticated with Google Sheets")
-            
         except Exception as e:
             print(f"❌ Error authenticating with Google Sheets: {e}")
             raise
